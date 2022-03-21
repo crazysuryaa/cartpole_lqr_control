@@ -15,7 +15,7 @@ https://youtu.be/1yNWJUq7lF8
 2. git clone https://crazysuryaa/cartpole_lqr_control/  
 3. cd ..  
 4. catkin_make
-5. chmod +x catkin_ws/src/cartpole_lqr_control/invpend_control/src/controller.py  
+5. chmod +x catkin_ws/src/cartpole_lqr_control/invpend_control/src/cart_pole_control.py  
 6. Run the below command in a terminal  
    roslaunch invpend_gazebo invpend_world.launch  
 7. Run the below command in a new terminal  
