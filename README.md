@@ -1,6 +1,5 @@
-SES 598 - Autonomy for cart pole system
-Name - Cherupally Surya Kiran
-ASU Id - 1223453127
+
+<h1>SES 598 - Autonomy for cart pole system</h1>
 
 Inverted-Pendulum-Control
 Design of a Linear Quadratic Regulator balancing controller for the Inverted Pendulum. The balancing controller moves the rotary arm to keep the pendulum in the upright vertical position after manually initializing it in that position. Furthermore, it is capable of self-balancing, even in the presence of modest external disturbances.
