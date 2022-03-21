@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package>
+  <name>invpend_control</name>
+  <version>0.0.0</version>
+  <description>The invpend_control package</description>
+
+  <maintainer email="linzhank@gmail.com">linZHank</maintainer>
+
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/linzhank/invpend_experiment</url>
+
+  <author email="linzhank@gmail.com">linZHank</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>controller_manager</run_depend>
+  <run_depend>joint_state_controller</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+
+  <run_depend>rqt_gui</run_depend>
+  <run_depend>effort_controllers</run_depend>
+
+ <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <!-- <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>  -->
+  <export>
+  </export>
+
+</package>

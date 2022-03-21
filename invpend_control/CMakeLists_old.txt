@@ -1,0 +1,52 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(invpend_control)
+
+# add_compile_options(-std=c++11)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
+
+#find_package(catkin REQUIRED)
+
+find_package(catkin REQUIRED COMPONENTS
+  
+  roscpp
+  rospy
+)
+
+#catkin_package()
+
+
+
+catkin_package(
+#  INCLUDE_DIRS include
+#  LIBRARIES turtlesim_lawnmower
+#  CATKIN_DEPENDS roscpp rospy std_msgs
+#  DEPENDS system_lib
+  LIBRARIES invpend_control
+  CATKIN_DEPENDS  roscpp rospy
+
+
+)
+
+###########
+## Build ##
+###########
+
+install(DIRECTORY config
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
+
+install(DIRECTORY launch
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
+
+
+## Specify additional locations of header files
+## Your package locations should be listed before other locations
+include_directories(
+ ${catkin_INCLUDE_DIRS}
+)
+
+
+add_executable(lqr_control src/controller.py)
+
+target_link_libraries(lqr_control ${catkin_LIBRARIES})
+
