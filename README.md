@@ -10,15 +10,10 @@ As a result of LQR, the system has been stabilized using Eigenvalues (Linear Qua
 
 https://youtu.be/1yNWJUq7lF8
 
-
-Github Link:
-
-
-
-Execution instructions
+<h1>Execution instructions</h1>
 
 1 cd catkin_ws/src  
-2. git clone https://github.com/venkatrebba/cartpole_lqr_control/  
+2. git clone https://crazysuryaa/cartpole_lqr_control/  
 3. cd ..  
 4. catkin_make
 5. chmod +x catkin_ws/src/cartpole_lqr_control/invpend_control/src/controller.py  
@@ -27,6 +22,6 @@ Execution instructions
 7. Run the below command in a new terminal  
     roslaunch invpend_control invpend_control.launch   
 8. Run the below command in a new terminal  
-    rosrun invpend_control controller.py  
+    rosrun invpend_control cart_pole_control.py  
    
 
