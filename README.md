@@ -9,6 +9,7 @@ As a result of LQR, the system has been stabilized using Eigenvalues (Linear Qua
 
 https://youtu.be/1yNWJUq7lF8
 <img src="demo.gif" width="500" height="200" />
+<br>
 <!-- ![Alt Text](demo.gif) -->
 
 <h1>Execution instructions</h1>
