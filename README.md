@@ -8,6 +8,8 @@ We used the functions "pole place" and "lqr" from the python package "control"
 As a result of LQR, the system has been stabilized using Eigenvalues (Linear Quadratic Regular)
 
 https://youtu.be/1yNWJUq7lF8
+<img src="demo.gif" width="500" height="200" />
+<!-- ![Alt Text](demo.gif) -->
 
 <h1>Execution instructions</h1>
 
